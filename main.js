@@ -1,16 +1,9 @@
 // JavaScript Code
-let numheads = 0;
-let numtails = 0;
-let numflips = 0;
+let num = 55;
 
-while (numheads < 100) {
-    if (Math.random() < 0.5) {
-        numheads++;
-    } else {
-        numtails++;
-    }
-    numflips++;
+
+while (num > 10) {
+  console.log(num);
+ 
 }
 
-console.log("Number of Coin Flips: " + numflips);
-console.log("Heads: " + numheads + " Tails: " + numtails);
