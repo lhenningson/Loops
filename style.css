@@ -1,1 +1,7 @@
 /* CSS Style Sheet */
+canvas {
+    border: 1px solid grey;
+}
+body {
+    text-align: center;
+}
